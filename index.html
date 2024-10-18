@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MI Store</title>
+  <style>
+    /* Resetting margin and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Header Section */
+    header {
+      background-color: #ff4a4a;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #f5f5f5;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      font-size: 18px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+    }
+
+    /* Product Grid */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+      padding: 20px;
+    }
+
+    /* Individual Product Card */
+    .product-card {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .product-card img {
+      width: 100px;
+      height: 100px;
+    }
+
+    .product-card .price {
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .product-card .discount {
+      color: red;
+    }
+
+    /* Banner Section */
+    .banner {
+      margin: 20px;
+      padding: 20px;
+      background-color: #ffe4e1;
+      text-align: center;
+      font-size: 22px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    MI Store
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">TV & Smart Home</a>
+    <a href="#">Tablet</a>
+    <a href="#">Lifestyle</a>
+  </nav>
+
+  <div class="product-grid">
+    <!-- Product 1 -->
+    <div class="product-card">
+      <img src="https://via.placeholder.com/100" alt="Redmi Earphones">
+      <div>Redmi Earphones</div>
+      <div class="price">₹449</div>
+      <div class="discount">25% off</div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="https://via.placeholder.com/100" alt="Mi Dual Driver Earphones">
+      <div>Mi Dual Driver Earphones</div>
+      <div class="price">₹799</div>
+      <div class="discount">20% off</div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <img src="https://via.placeholder.com/100" alt="Redmi Sonic Earphones 2">
+      <div>Redmi Sonic Earphones 2</div>
+      <div class="price">₹1,299</div>
+      <div class="discount">15% off</div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <img src="https://via.placeholder.com/100" alt="Mi Bluetooth Speaker">
+      <div>Mi Bluetooth Speaker</div>
+      <div class="price">₹2,499</div>
+      <div class="discount">28% off</div>
+    </div>
+  </div>
+
+  <div class="banner">
+    Save Up to 65% on Chargers & Cables! Free Delivery on All Products.
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product-grid">
+    <!-- Product 5 -->
+    <div class="product-card">
+      <img src="https://via.placeholder.com/100" alt="Xiaomi HyperCharge Adapter">
+      <div>Xiaomi HyperCharge Adapter</div>
+      <div class="price">₹2,999</div>
+      <div class="discount">50% off</div>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product-card">
+      <img src="https://via.placeholder.com/100" alt="Mi 2A Fast Charger">
+      <div>Mi 2A Fast Charger</div>
+      <div class="price">₹449</div>
+      <div class="discount">25% off</div>
+    </div>
+
+    <!-- Product 7 -->
+    <div class="product-card">
+      <img src="https://via.placeholder.com/100" alt="SonicCharge 2.0 Cable">
+      <div>SonicCharge 2.0 Cable</div>
+      <div class="price">₹249</div>
+      <div class="discount">40% off</div>
+    </div>
+
+    <!-- Product 8 -->
+    <div class="product-card">
+      <img src="https://via.placeholder.com/100" alt="Mi Dual Port Charger">
+      <div>Mi Dual Port Charger</div>
+      <div class="price">₹899</div>
+      <div class="discount">35% off</div>
+    </div>
+  </div>
+
+</body>
+</html>
